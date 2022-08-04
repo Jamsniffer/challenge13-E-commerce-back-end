@@ -1,7 +1,12 @@
+const { Category } = require('../../models');
+
 const router = require('express').Router();
 
 router.get('/', (req, res) => {
     res.send('this is categories')
+    Category.findAll().then((categoryData) => {
+        res.json(categoryData);
+    })
 });
 
 router.get('/:id', (req, res) => {

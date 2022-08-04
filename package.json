@@ -4,5 +4,24 @@
     "express": "^4.18.1",
     "mysql2": "^2.3.3",
     "sequelize": "^6.21.3"
-  }
+  },
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
+  },
+  "name": "challenge13-e-commerce-back-end",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jamsniffer/challenge13-E-commerce-back-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jamsniffer/challenge13-E-commerce-back-end/issues"
+  },
+  "homepage": "https://github.com/Jamsniffer/challenge13-E-commerce-back-end#readme"
 }
